@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals - Dasia Mitchell</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 30px;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        header, footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        footer {
+            margin-top: 20px;
+        }
+        .form-container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            height: 100px;
+        }
+        .contact-time label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dasia Mitchell - Career Goals</h1>
+        <p><strong>Email:</strong> <a href="mailto:dmit543@wgu.edu">dmit543@wgu.edu</a> | <strong>Phone:</strong> (870) 675-7444</p>
+    </header>
+
+    <nav>
+        <p><strong>Portfolio:</strong></p>
+        <ul>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+            <li><a href="resumeupdate.html">Resume</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Career Goals</h2>
+            <p>As a passionate Software Engineer, my career goals are to continuously improve my skills, build innovative solutions, and contribute to meaningful projects. I aim to collaborate with talented teams, further my expertise in technologies like <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Python</strong>, and grow into a leadership role where I can guide new developers and make impactful decisions.</p>
+        </section>
+
+        <section>
+            <h2>Media</h2>
+            <h3>Image: My Workspace</h3>
+            <img src="https://via.placeholder.com/500x300" alt="A photo of my workspace" width="500" height="300">
+
+            <h3>Audio: Career Journey</h3>
+            <audio controls>
+                <source src="career_journey.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video: My Latest Project</h3>
+            <video width="600" controls>
+                <source src="my_project.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <div class="form-container">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first_name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last_name" required>
+
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" name="company_name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" id="phone" name="phone" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <div class="contact-time">
+                        <label>Best Contact Time:</label>
+                        <label for="am">A.M.</label>
+                        <input type="radio" id="am" name="contact_time" value="A.M.">
+                        <label for="pm">P.M.</label>
+                        <input type="radio" id="pm" name="contact_time" value="P.M.">
+                        <label for="anytime">Anytime</label>
+                        <input type="radio" id="anytime" name="contact_time" value="Anytime">
+                    </div>
+
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <select id="contact-method" name="contact_method" required>
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for reviewing my career goals and considering reaching out! You can contact me anytime at <a href="mailto:dmit543@wgu.edu">dmit543@wgu.edu</a>.</p>
+    </footer>
+
+</body>
+</html>
