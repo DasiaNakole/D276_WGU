@@ -111,7 +111,7 @@
                     <input type="email" id="email" name="email" required>
 
                     <label for="phone">Phone Number:</label>
-                    <input type="phone" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
@@ -119,7 +119,7 @@
                     <div class="contact-time">
                         <label>Best Contact Time:</label>
                         <label for="am">A.M.</label>
-                        <input type="radio" id="am" name="contact_time" value="A.M.">
+                        <input type="radio" id="am" name="contact_time" value="A.M." required>
                         <label for="pm">P.M.</label>
                         <input type="radio" id="pm" name="contact_time" value="P.M.">
                         <label for="anytime">Anytime</label>
@@ -133,7 +133,7 @@
                         <option value="text">Text</option>
                     </select>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit" name="submit">Submit</button>
                 </form>
             </div>
         </section>
@@ -145,3 +145,4 @@
 
 </body>
 </html>
+
